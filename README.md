@@ -46,6 +46,9 @@ npm install -g @wecom/cli
 # 安装 CLI Skill（必需）
 npx skills add WeComTeam/wecom-cli -y -g
 
+# 或使用 GitHub CLI 安装 CLI Skill
+gh skill install WeComTeam/wecom-cli --all
+
 # 配置凭证（交互式，仅需一次；默认扫码，--manual 可手动输入）
 wecom-cli auth init
 
